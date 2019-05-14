@@ -3,6 +3,7 @@ import { GlobalState } from "../context/Store";
 import styled from "styled-components";
 import icons from "../context/context-icons.json";
 import Icon from "./Icon";
+import parse from "html-react-parser";
 
 const NewsDetails = props => {
     const [newsParam] = useState(props.match.params.id);
@@ -27,7 +28,9 @@ const NewsDetails = props => {
                                       </div>
 
                                       <div className="col-lg-7">
-                                          <Paragraph>{news.text}</Paragraph>
+                                          <Paragraph>
+                                              {parse(news.text)}
+                                          </Paragraph>
                                           {news.slug ===
                                           "wygodne-narzedzia-dla-klientow" ? (
                                               <div className="container">
@@ -98,7 +101,7 @@ const ImgWrapper = styled.img`
     // object-position: top;
     // width: 100%;
 `;
-const Paragraph = styled.p`
+const Paragraph = styled.div`
     font-size: 16px;
     color: #284a41;
     font-weight: 500;
