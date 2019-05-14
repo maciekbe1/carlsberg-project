@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Zgłoś naprawę",
+        "text": "",
+        "img": "react_pudlo.png",
+        "link": "https://carlsberg-qa.bpower2.com/index.php/project/user/refrigerators"
+    },
+    {
+        "id": 2,
+        "title": "Reklamacja lodówki",
+        "text": "",
+        "img": "react_lodowka.png",
+        "link": "https://carlsberg-qa.bpower2.com/index.php/project/user/refrigerators"
+    },
+    {
+        "id": 3,
+        "title": "Moje rozliczenia",
+        "text": "",
+        "img": "react_faktury.png",
+        "link": "https://carlsberg-qa.bpower2.com/index.php/project/user/SettlementsAndPayments"
+    },
+    {
+        "id": 4,
+        "title": "Audyty",
+        "text": "",
+        "img": "react_zakupy.png",
+        "link": "https://carlsberg-qa.bpower2.com/index.php/project/user/audit"
+    }
+]
