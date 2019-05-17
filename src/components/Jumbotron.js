@@ -17,12 +17,12 @@ export default function Jumbotron() {
 }
 
 const Content1 = styled.div`
-    @media (max-width: 768px) {
+    @media (max-width: 1200px) {
         display: none;
     }
 `;
 const Content2 = styled.div`
-    @media (min-width: 768px) {
+    @media (min-width: 1200px) {
         display: none;
     }
 `;

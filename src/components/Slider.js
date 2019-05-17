@@ -31,10 +31,14 @@ const Slider = () => {
                     <BestBeer />
                 </div>
                 <div className="carousel-item">
-                    <Img className="w-100" src={kasztelan} alt="" />
+                    <div className="d-flex justify-content-center align-items-center">
+                        <Img src={kasztelan} alt="" />
+                    </div>
                 </div>
                 <div className="carousel-item">
-                    <Img className="w-100" src={somersby} alt="" />
+                    <div className="d-flex justify-content-center align-items-center">
+                        <Img src={somersby} alt="" />
+                    </div>
                 </div>
             </div>
             <a
