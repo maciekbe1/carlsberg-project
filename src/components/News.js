@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { ReactComponent as Leaf } from "../images/brand-mark.svg";
 import { GlobalState } from "../context/Store";
 
-const Homepage = () => {
+const News = () => {
     const { news } = useContext(GlobalState);
     return (
         <Wrapper className="container" id="customer-service">
@@ -35,7 +35,7 @@ const Homepage = () => {
     );
 };
 
-export default Homepage;
+export default News;
 
 const Wrapper = styled.div`
     color: #284a41;

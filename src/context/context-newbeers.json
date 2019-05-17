@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Nowy Okocim",
+        "text": "",
+        "img": "okocim/Nowosci-1.png",
+        "slug": "okocim"
+    },
+    {
+        "id": 2,
+        "title": "Nowy Radler",
+        "text": "",
+        "img": "radler/Nowosci-1.png",
+        "slug": "radler"
+    },
+    {
+        "id": 3,
+        "title": "Nowy Somersby",
+        "text": "",
+        "img": "somersby/Nowosci-1.png",
+        "slug": "somersby"
+    }
+]

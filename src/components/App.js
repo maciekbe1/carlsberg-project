@@ -8,7 +8,8 @@ import Footer from "./Footer";
 import NotFound from "./NotFound";
 import NewsDetails from "./NewsDetails";
 import Store from "../context/Store";
-import PromotionsDetails from "./PromotionsDetails"
+import PromotionsDetails from "./PromotionsDetails";
+import NewBeerDetails from "./NewBeerDetails";
 
 const App = () => {
     return (
@@ -20,7 +21,14 @@ const App = () => {
                         <Navbar />
                         <Switch>
                             <Route exact path="/" component={Homepage} />
-                            <Route path="/promocje/:promotion" component={PromotionsDetails} />
+                            <Route
+                                path="/promocje/:promotion"
+                                component={PromotionsDetails}
+                            />
+                            <Route
+                                path="/nowosci/:newBeer"
+                                component={NewBeerDetails}
+                            />
                             <Route path="/:id" component={NewsDetails} />
                             <Route component={NotFound} />
                         </Switch>

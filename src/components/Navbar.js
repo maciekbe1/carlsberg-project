@@ -23,6 +23,12 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav ml-auto">
+                    <Link
+                        className="nav-item nav-link"
+                        to="/#newbeers-and-promotions"
+                    >
+                        Nowości i promocje
+                    </Link>
                     <Link className="nav-item nav-link" to="/#customer-service">
                         Dla partnerów
                     </Link>

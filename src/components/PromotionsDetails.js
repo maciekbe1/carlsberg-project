@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const PromotionsDetails = props => {
     const [promotion] = useState(props.match.params.promotion);
-    console.log(props.match.params);
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -41,14 +40,14 @@ const PromotionsDetails = props => {
             })}
         </Wrapper>
     );
-}
+};
 
 export default PromotionsDetails;
 
 const Wrapper = styled.div`
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
 `;
 const Img = styled.img`
-   width: 100%;
+    width: 100%;
 `;

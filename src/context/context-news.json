@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Jak pracujemy?",
+        "text": "Jak pracujemy?",
+        "img": "carlsberg1.jpg",
+        "slug": "jak-pracujemy"
+    },
+    {
+        "id": 2,
+        "title": "Stawiamy na rozwój",
+        "text": "Stawiamy na rozwój",
+        "img": "carlsberg2.jpg",
+        "slug": "stawiamy-na-rozwoj"
+    },
+    {
+        "id": 3,
+        "title": "Warto być z nami?",
+        "text": "Warto być z nami?",
+        "img": "carlsberg3.jpg",
+        "slug": "warto-byc-z-nami"
+    }
+]
