@@ -60,4 +60,7 @@ const Span = styled.span`
     font-weight: bold;
     font-size: 20px;
     margin-left: 20px;
+    @media (max-width: 550px) {
+        font-size: 14px;
+    }
 `;
