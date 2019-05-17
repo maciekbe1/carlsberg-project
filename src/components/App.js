@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import NotFound from "./NotFound";
 import NewsDetails from "./NewsDetails";
 import Store from "../context/Store";
+import PromotionsDetails from "./PromotionsDetails"
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                         <Navbar />
                         <Switch>
                             <Route exact path="/" component={Homepage} />
+                            <Route path="/promocje/:promotion" component={PromotionsDetails} />
                             <Route path="/:id" component={NewsDetails} />
                             <Route component={NotFound} />
                         </Switch>
