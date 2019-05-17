@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Kasztelan",
+        "text": "",
+        "img": "kasztelan/kasztelan-1.png",
+        "slug": "kasztelan"
+    },
+    {
+        "id": 2,
+        "title": "Harnaś",
+        "text": "",
+        "img": "harnas/harnas-1.png",
+        "slug": "harnas"
+    },
+    {
+        "id": 3,
+        "title": "Somersby",
+        "text": "",
+        "img": "somersby/somersby-1.png",
+        "slug": "somersby"
+    }
+]
