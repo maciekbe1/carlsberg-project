@@ -12,30 +12,32 @@ import PromotionsDetails from "./PromotionsDetails";
 import NewBeerDetails from "./NewBeerDetails";
 
 const App = () => {
-  return (
-    <Store>
-      <HashRouter>
-        <GlobalStyle />
-        <Wrapper>
-          <div className="container-fluid">
-            <Navbar />
-            <Switch>
-              <Route exact path="/" component={Homepage} />
-              <Route
-                path="/promocje/:promotion"
-                component={PromotionsDetails}
-              />
-              <Route path="/nowosci/:newBeer" component={NewBeerDetails} />
-              <Route path="/:id" component={NewsDetails} />
-              <Route component={NotFound} />
-            </Switch>
-
-            <Footer />
-          </div>
-        </Wrapper>
-      </HashRouter>
-    </Store>
-  );
+    return (
+        <Store>
+            <HashRouter>
+                <GlobalStyle />
+                <Wrapper>
+                    <div className="container-fluid">
+                        <Navbar />
+                        <Switch>
+                            <Route exact path="/" component={Homepage} />
+                            <Route
+                                path="/promocje/:promotion"
+                                component={PromotionsDetails}
+                            />
+                            <Route
+                                path="/nowosci/:newBeer"
+                                component={NewBeerDetails}
+                            />
+                            <Route path="/:id" component={NewsDetails} />
+                            <Route component={NotFound} />
+                        </Switch>
+                        <Footer />
+                    </div>
+                </Wrapper>
+            </HashRouter>
+        </Store>
+    );
 };
 
 export default App;
@@ -96,13 +98,13 @@ a {
 `;
 
 const Wrapper = styled.div`
-  background: #fff;
-  max-width: 1440px;
-  padding: 0 10px;
-  width: 100%;
-  margin: 0 auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  @media (max-width: 576px) {
-    padding: 0;
-  }
+    background: #fff;
+    max-width: 1440px;
+    padding: 0 10px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    @media (max-width: 576px) {
+        padding: 0;
+    }
 `;
